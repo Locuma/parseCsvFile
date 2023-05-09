@@ -1,0 +1,19 @@
+{
+    "name": "lonur/csv-test",
+    "authors": [
+        {
+            "name": "lonur",
+            "email": "test@mail.ru"
+        }
+    ],
+    "require": {
+        "bramus/router": "~1.6",
+      "ext-mbstring": "*",
+        "jenssegers/blade": "^1.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "app\\": "src/"
+        }
+    }
+}
